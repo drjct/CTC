@@ -1,8 +1,8 @@
 import pandas as pd
 import streamlit as st
 
-df1 = pd.read_excel('~/Documents/CTC/R03731s.xlsx')
-df2 = pd.read_excel('~/Documents/CTC/Neonatology Report 10-28-2021draft.xlsx')
+df1 = pd.read_excel('R03731s.xlsx')
+df2 = pd.read_excel('Neonatology Report 10-28-2021draft.xlsx')
 
 df1_cols = ['STAR#', 'LLeRA#', 'IRB#', 'ShortTitle',
  'Nickname', 'PI', 'IRB Status', 'IRB Expiration Date']
